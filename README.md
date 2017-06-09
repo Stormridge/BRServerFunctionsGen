@@ -1,6 +1,8 @@
 # Battle Royale Server Functions Generator
 This simple .NET application is used to autogenerate SQF function definitions, which can then be compiled as readonly variables when the server starts.  I wrote this while eating a snickers since I was tired of manually defining SQF variables and their target SQF file.  I also don't like editing configs.
 
+To learn more about Arma 3 Battle Royale, visit our [Battle Royale Discord](https://discord.gg/0VyanbPZ8SsaJU5p)
+
 # Overview
 Since SQF lacks object-oriented encapsulation and naming, Battle Royale Mod uses a simple and dirty way of defining functions and keeping them organized.  This lets the mod developer create and declare a new method simply by creating a new SQF file.  When BR Mod loads, it immediately compiles the mod files as readonly variables.
 
